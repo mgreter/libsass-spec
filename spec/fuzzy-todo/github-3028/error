@@ -1,0 +1,6 @@
+Error: expected ";".
+  ,
+1 | $pxx:xx:yNx:not(>:n(>:not(-----F)-#{:}---GG,,,oa-2,
+  |        ^
+  '
+  input.scss 1:8  root stylesheet
