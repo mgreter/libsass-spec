@@ -1,0 +1,41 @@
+<===> all/input.scss
+foo {
+  @media all -webkit-device-pixel-ratio {
+    a: b;
+  }
+}
+
+<===> all/output.css
+@media all -webkit-device-pixel-ratio {
+  foo {
+    a: b;
+  }
+}
+
+<===> hello/input.scss
+foo {
+  @media hello -webkit-device-pixel-ratio {
+    a: b;
+  }
+}
+
+<===> hello/output.css
+@media hello -webkit-device-pixel-ratio {
+  foo {
+    a: b;
+  }
+}
+
+<===> not/input.scss
+foo {
+  @media not -webkit-device-pixel-ratio {
+    a: b;
+  }
+}
+
+<===> not/output.css
+@media not -webkit-device-pixel-ratio {
+  foo {
+    a: b;
+  }
+}
