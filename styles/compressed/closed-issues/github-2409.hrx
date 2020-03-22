@@ -1,0 +1,8 @@
+<===> input.scss
+$white: white;
+.test-btn-#{white} {
+    color: $white;
+}
+
+<===> output.css
+.test-btn-#fff{color:#fff}
