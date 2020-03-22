@@ -1,0 +1,28 @@
+<===> modules/_all.scss
+@import "images";
+
+<===> partials/_all.scss
+@import "images";
+
+<===> modules/_images.scss
+img {
+	width: 100px;
+}
+
+<===> partials/_images.scss
+img {
+	height: auto;
+}
+
+<===> input.scss
+@import "modules/all";
+@import "partials/all";
+
+<===> output.css
+img {
+  width: 100px;
+}
+
+img {
+  height: auto;
+}
