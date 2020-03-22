@@ -1,0 +1,16 @@
+<===> input.scss
+@function test() {
+  @return;
+}
+
+div {
+  x: type-of(test());
+}
+
+<===> error
+Error: Expected expression.
+  ,
+2 |   @return;
+  |          ^
+  '
+  input.scss 2:10  root stylesheet
