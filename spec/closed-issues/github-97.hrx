@@ -1,0 +1,17 @@
+<===> scss/test/_a.scss
+a { b: c; }
+
+<===> scss/test/_b.scss
+d { e: f; }
+
+<===> input.scss
+@import "scss/test/a", "scss/test/b";
+
+<===> output.css
+a {
+  b: c;
+}
+
+d {
+  e: f;
+}
