@@ -1,0 +1,14 @@
+<===> input.scss
+input {
+  @media not (pointer: fine) {
+    background: red;
+  }
+}
+
+<===> error
+Error: expected "{".
+  ,
+2 |   @media not (pointer: fine) {
+  |              ^
+  '
+  input.scss 2:14  root stylesheet
