@@ -1,0 +1,14 @@
+<===> input.scss
+.container {
+  content: outer;
+  @media (min-width: 30px) {
+    content: inner;
+  }
+}
+
+<===> output.css
+.container {
+  content: outer; }
+  @media (min-width: 30px) {
+    .container {
+      content: inner; } }
