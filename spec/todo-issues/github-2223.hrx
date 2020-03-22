@@ -1,0 +1,9 @@
+<===> input.scss
+@media ("min-width: " 10px) {
+  /* here */
+}
+
+<===> output.css
+@media (min-width: 10px) {
+  /* here */
+}
