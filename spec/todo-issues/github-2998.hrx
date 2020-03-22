@@ -1,0 +1,18 @@
+<===> input.scss
+.form-control[disabled] {
+    display: block;
+}
+.select2-container--disabled {
+    @extend .form-control[disabled];
+}
+
+<===> error
+Error: compound selectors may no longer be extended.
+Consider `@extend .form-control, [disabled]` instead.
+See http://bit.ly/ExtendCompound for details.
+
+  ,
+5 |     @extend .form-control[disabled];
+  |             ^^^^^^^^^^^^^^^^^^^^^^^
+  '
+  input.scss 5:13  root stylesheet
