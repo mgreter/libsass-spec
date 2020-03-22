@@ -1,0 +1,25 @@
+<===> _test.scss
+@mixin test () {
+  @mixin hey () {
+    hey: value;
+  }
+
+  .test {
+    border: 1px;
+
+    @include hey();
+  }
+}
+
+<===> input.scss
+@import 'test';
+@include test();
+
+<===> error
+Error: Mixins may not contain mixin declarations.
+  ,
+2 |   @mixin hey () {
+  |   ^^^^^^^^^^^^^
+  '
+  _test.scss 2:3  @import
+  input.scss 1:9  root stylesheet
