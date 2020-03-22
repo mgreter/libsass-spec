@@ -1,0 +1,13 @@
+<===> input.scss
+a(b(x)) {
+  color: red;
+  @extend x;
+}
+
+<===> error
+Error: expected selector.
+  ,
+1 | a(b(x)){
+  |  ^
+  '
+  input.scss 1:2  root stylesheet
