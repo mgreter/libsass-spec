@@ -1,8 +1,13 @@
+<===> options.yml
+---
+:todo:
+- libsass
+
 <===> input.scss
 $white: white;
-.test-btn-#{white} {
+.test-btn-#fff {
     color: $white;
 }
 
 <===> output.css
-.test-btn-#fff{color:#fff}
+#fff.test-btn{color:#fff}
