@@ -2,7 +2,7 @@
    Table
 \* ------------------------------------ */
 
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles';
+@import '@bolt/core/styles';
 
 $bolt-table-overflow-shadow-color: bolt-theme(text, 0.25);
 

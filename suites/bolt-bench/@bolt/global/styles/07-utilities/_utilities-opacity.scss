@@ -3,7 +3,7 @@
   see `_settings-opacity.scss`
 \* ------------------------------------ */
 
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles';
+@import '@bolt/core/styles';
 
 @each $opacity-name, $opacity-value in $bolt-opacities {
   .u-bolt-opacity-#{$opacity-name} {

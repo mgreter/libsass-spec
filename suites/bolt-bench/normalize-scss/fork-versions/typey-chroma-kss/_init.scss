@@ -1,7 +1,7 @@
 // Initialization partial
 //
 // To make it easier to use all variables and mixins in any Sass file in this
-// project, each .scss file has a `@import 'libsass-spec/suites/bolt-bench/init';` declaration. The _init.scss
+// project, each .scss file has a `@import 'init';` declaration. The _init.scss
 // file is in charge of importing all the other partials needed for the
 // project.
 //
@@ -17,10 +17,10 @@
 
 // The following Sass functions/mixins are required to generate some variables'
 // values, so we load them first.
-@import 'libsass-spec/suites/bolt-bench/chroma/functions';
+@import 'chroma/functions';
 
-@import 'libsass-spec/suites/bolt-bench/init/colors';
-@import 'libsass-spec/suites/bolt-bench/init/variables';
+@import 'init/colors';
+@import 'init/variables';
 
 
 // 3rd party libraries
@@ -34,10 +34,10 @@
 // Style guide: sass.modules
 
 // Add Chroma to manage colors.
-@import 'libsass-spec/suites/bolt-bench/chroma';
-@import 'libsass-spec/suites/bolt-bench/chroma/kss';
+@import 'chroma';
+@import 'chroma/kss';
 // Add typey to manage font sizes and margins.
-@import 'libsass-spec/suites/bolt-bench/typey';
+@import 'typey';
 
 
 // Mixins
@@ -47,7 +47,7 @@
 // Weight: 1
 //
 // Style guide: sass.mixins
-@import 'libsass-spec/suites/bolt-bench/init/rtl/rtl';
+@import 'init/rtl/rtl';
 
 // Functions
 //

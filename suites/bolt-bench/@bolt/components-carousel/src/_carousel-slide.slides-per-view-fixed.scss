@@ -1,4 +1,4 @@
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles';
+@import '@bolt/core/styles';
 
 @for $i from 1 to 6 {
   bolt-carousel[slides-per-view="#{$i}"] bolt-carousel-slide:not(.is-ready) {

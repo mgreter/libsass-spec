@@ -7,7 +7,7 @@
 // 2. [Morse] Bolt-trigger is inline and sometimes contains an inline <a> or <button>, which can cause unwanted whitespace. Zero-out and reset font-size to avoid this issue.
 // 3. [Morse] Bolt-trigger delegates focus to inner element.
 
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles';
+@import '@bolt/core/styles';
 
 /**
  * Base Trigger

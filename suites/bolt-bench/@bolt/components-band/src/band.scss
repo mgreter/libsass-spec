@@ -2,7 +2,7 @@
    Band
 \* ------------------------------------ */
 
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles';
+@import '@bolt/core/styles';
 
 // Custom element styles, some are neccessary for the video background
 // @todo: remove any unnecessary styles when `isBackgroundVideo` is removed in Bolt v3.0

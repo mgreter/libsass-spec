@@ -2,7 +2,7 @@
    Nav
 \* ------------------------------------ */
 
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles';
+@import '@bolt/core/styles';
 
 $bolt-nav-indicator-border-size: 4px;
 $bolt-nav-indicator-border-transition-ease: ease;

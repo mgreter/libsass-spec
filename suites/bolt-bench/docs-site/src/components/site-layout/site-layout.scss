@@ -1,6 +1,6 @@
 // @todo: refactor this and break apart
 
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles';
+@import '@bolt/core/styles';
 $bds-sidebar-width: 320px;
 
 .c-bds-layout {

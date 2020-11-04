@@ -1,5 +1,5 @@
-@import 'libsass-spec/suites/bolt-bench/vars';
-@import 'libsass-spec/suites/bolt-bench/colorBlue';
+@import 'vars';
+@import 'colorBlue';
 
 body {
   background: $color;

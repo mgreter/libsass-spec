@@ -1,5 +1,5 @@
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles';
-@import 'libsass-spec/suites/bolt-bench/docsearch.js/dist/npm/styles/main.scss';
+@import '@bolt/core/styles';
+@import 'docsearch.js/dist/npm/styles/main.scss';
 
 // temporary style overrides to the default form input until we're done refactoring to support additional input sizes + icon placement
 bds-docs-search {

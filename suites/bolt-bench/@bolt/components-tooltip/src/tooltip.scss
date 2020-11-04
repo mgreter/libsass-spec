@@ -1,7 +1,7 @@
 /* ------------------------------------ *\
    Tooltip
 \* ------------------------------------ */
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles';
+@import '@bolt/core/styles';
 
 $bolt-tooltip-bubble-triangle-width: 8px;
 $bolt-tooltip-bubble-border-color: bolt-color("gray", light);

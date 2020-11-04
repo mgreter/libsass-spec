@@ -12,7 +12,7 @@
 // Weight: -1
 //
 // Style guide: sass
-@import 'libsass-spec/suites/bolt-bench/init';
+@import 'init';
 
 // Defaults
 //
@@ -24,8 +24,8 @@
 // Style guide: base
 
 // Ensure fonts get loaded first to minimize front-end performance impact.
-@import 'libsass-spec/suites/bolt-bench/base/fonts';
-@import 'libsass-spec/suites/bolt-bench/base/normalize';
+@import 'base/fonts';
+@import 'base/normalize';
 
 // Layouts
 //
@@ -45,7 +45,7 @@
 // Style guide: components
 
 // This file is @import'ed by base/grouping, so we don't import it again.
-// @import 'libsass-spec/suites/bolt-bench/components/divider/divider';
+// @import 'components/divider/divider';
 
 // Navigation
 //
@@ -66,4 +66,4 @@
 // Style guide: forms
 
 // This file is @import'ed by base/forms, so we don't import it again.
-// @import 'libsass-spec/suites/bolt-bench/forms/button/button';
+// @import 'forms/button/button';

@@ -2,7 +2,7 @@
    Background
 \* ------------------------------------ */
 
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles';
+@import '@bolt/core/styles';
 
 $bolt-test-color-background-gradient--primary: bolt-color("black"); // This needs to map to the theme's background color.
 $bolt-test-color-background-gradient--secondary: rgba($bolt-test-color-background-gradient--primary, 0.1);

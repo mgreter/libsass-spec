@@ -2,7 +2,7 @@
   #FLEX UTILITIES
 \* ------------------------------------ */
 
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles';
+@import '@bolt/core/styles';
 
 // Add additional spacing size rules for handling auto and zero'd rules
 $bolt-display-props: (

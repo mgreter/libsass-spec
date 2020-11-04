@@ -2,7 +2,7 @@
   COLOR UTILITIES
 \* ------------------------------------ */
 
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles'; // We need this for including within shadowDOM
+@import '@bolt/core/styles'; // We need this for including within shadowDOM
 
 // Color utility classes
 @each $color in $bolt-colors {

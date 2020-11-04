@@ -1,4 +1,4 @@
-@import 'libsass-spec/suites/bolt-bench/@bolt/core/styles';
+@import '@bolt/core/styles';
 
 // Local Variables
 $bolt-ul-bullet-size: 6px; // Using px here because I need to make a perfect circle without subpixel issues.

@@ -2,9 +2,9 @@
   BOLT CSS CORE
 \* ------------------------------------ */
 
-@import 'libsass-spec/suites/bolt-bench/sass-mq/_mq';
-@import 'libsass-spec/suites/bolt-bench/sassy-maps/sass/sassy-maps';
-@import 'libsass-spec/suites/bolt-bench/@bolt/sass-export-data/export-data.scss';
+@import 'sass-mq/_mq';
+@import 'sassy-maps/sass/sassy-maps';
+@import '@bolt/sass-export-data/export-data.scss';
 
 @import '01-settings/00-settings-lang/_settings.lang-en';
 @import '01-settings/00-settings-lang/_settings.lang-ja';
