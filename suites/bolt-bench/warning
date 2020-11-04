@@ -1,0 +1,2 @@
+DEPRECATION WARNING on line 148, column 1 of @bolt/core/styles/01-settings/settings-global/_settings-global.scss:
+As of LibSass 4.1, !global assignments won't be able to declare new variables.
